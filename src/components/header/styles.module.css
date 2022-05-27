@@ -1,0 +1,31 @@
+ .header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 20px;
+    color: #EAA79E;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #949EA0;
+}
+.navItem {
+    margin-right: 32px;
+}
+
+.navItem:hover {
+    cursor: pointer;
+}
+
+.navItem:last-child {
+    margin-right: 0px;
+}
+

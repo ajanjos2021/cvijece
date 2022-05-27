@@ -1,0 +1,12 @@
+.flowerGrid{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(256px, 1fr));
+    margin: 0px 20px;
+}
+
+.prikaziJos {
+    display: flex;
+    justify-content: center;
+    margin: 44px;
+}
